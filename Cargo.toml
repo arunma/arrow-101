@@ -1,0 +1,13 @@
+[package]
+name = "arrow-101"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrow = "39.0.0"
+arrow-csv = "39.0.0"
+datafusion = "24.0.0"
+rand = "0.8.5"
+tokio = {version ="1.28.1", features=["full"]}
